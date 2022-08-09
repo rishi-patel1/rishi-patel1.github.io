@@ -48,8 +48,7 @@ h1{
   letter-spacing: .1em; /* Adjust as needed */
   width: max-content;
   animation: 
-  typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
+  typing 5s steps(1000,end);
 
 
 }
@@ -57,7 +56,7 @@ h1{
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 50% }
+    to { width: 100% }
   }
 
 
